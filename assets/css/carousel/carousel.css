@@ -1,0 +1,64 @@
+.carousel-slider {
+    list-style: none;
+    margin: 0;
+}
+
+.carousel-slidecontrols {
+    list-style: none;
+    margin: 0;
+	
+}
+
+.carousel-slidecontrols li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.ie7 .carousel-slidecontrols li {
+    float:left;
+}
+
+
+.carousel-tabs {
+    clear: both;
+	text-align:center;
+}
+
+.carousel-active-tab {
+    color: red;
+}
+
+.carousel-disabled,
+.mr-rotato-disabled {
+    color: #aaa;
+}
+
+.carousel-tabs {
+    padding: 0;
+    margin: 1em 0;
+    clear: both;
+}
+
+.carousel-tabs li {
+    display: inline-block;
+    padding: 0 2px;
+}
+
+.carousel-tabs a {
+    background: #ddd;
+    display: inline-block;
+    height: 10px;
+    text-indent: -9999px;
+    width: 10px;
+    border-radius: 5px;
+}
+
+.ie7 .carousel-tabs li,
+.ie7 .carousel-tabs a {
+    display: block;
+    float: left;
+}
+
+.carousel-tabs .carousel-active-tab a {
+    background: #777;
+}

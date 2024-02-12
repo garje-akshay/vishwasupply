@@ -2,14 +2,15 @@
   "name": "vishwasupply",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
- 
-  "scripts": {
-    "deploy": "gh-pages -d"
-  },
+  "main": "index.html",
+  "homepage": "https://www.vishwasupply.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/garje-akshay/vishwasupply.git"
+  },
+ 
+  "scripts": {
+    "deploy": "gh-pages -d build"
   },
   "author": "Akshay",
   "license": "ISC",
