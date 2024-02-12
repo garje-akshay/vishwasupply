@@ -1,0 +1,81 @@
+/*
+
+	This file contains an alternative styling to make the layout boxed. 
+	The boxed version also comes with a few background options that you can choose from.
+
+*/
+
+
+/* #Site Styles (>1024px width screen resolutions)
+==================================================================================================== */
+	
+	body{ 
+		
+		background:#fff url(images/bg-body15.png) repeat top left;
+		
+		/* You can choose an alternative background */
+		/*
+		background:#fff url(images/bg-body2.png) repeat top left;
+		background:#fff url(images/bg-body3.png) repeat top left;
+		background:#fff url(images/bg-body4.png) repeat top left;
+		background:#fff url(images/bg-body5.png) repeat top left;
+		background:#fff url(images/bg-body6.png) repeat top left;
+		background:#fff url(images/bg-body7.png) repeat top left;
+		background:#fff url(images/bg-body8.png) repeat top left;
+		background:#fff url(images/bg-body9.png) repeat top left;
+		background:#fff url(images/bg-body10.png) repeat top left;
+		background:#fff url(images/bg-body11.png) repeat top left;
+		background:#fff url(images/bg-body12.png) repeat top left;
+		background:#fff url(images/bg-body13.png) repeat top left;
+		background:#fff url(images/bg-body14.png) repeat top left;
+		background:#fff url(images/bg-body15.png) repeat top left;
+		background:#fff url(images/bg-body16.png) repeat top left;
+		background:#fff url(images/bg-body17.png) repeat top left;
+		background:#fff url(images/bg-body18.png) repeat top left;
+		background:#fff url(images/bg-body19.png) repeat top left;
+		background:#fff url(images/bg-body20.png) repeat top left;
+		*/
+		
+	}
+	
+	#wrap{  margin:0 auto; -webkit-box-shadow:0 0 6px rgba(0,0,0,.2);  -moz-box-shadow:0 0 6px rgba(0,0,0,.2);  box-shadow:0 0 10px rgba(0,0,0,.2); }
+	
+	
+/* #Media Queries
+==================================================================================================== */
+
+	/* #Smaller then 1024px wide screen resolution */
+	
+	@media only screen and (max-width: 1024px) {
+
+		body{  }
+		
+		#wrap{ width:auto; margin:0; }
+
+	}
+
+
+	/* #Tablet (Portrait) - designed for 705px width grid */
+	
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		#wrap{ width:auto; }			
+	
+	}
+	
+	/* #Mobile (Portrait) - designed for 280px width */
+	
+	@media only screen and (max-width: 767px) {
+	
+		#wrap{ width:auto; padding:10px 0 0 0; }
+			
+	}
+	
+	/* #Mobile (Landscape) - designed for 420px width */
+	
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+		#wrap{}
+		
+	}	
+

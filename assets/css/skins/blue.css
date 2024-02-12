@@ -1,0 +1,217 @@
+/* Dropdown Menu 
+-----------------------------------------------------------------------------------------------*/
+/* level 1 menu */
+
+ul#dropdown-menu li a{ color:#4b4b4b; }
+
+/* styling of LEVEL 1 menu item that is current */ 
+ul#dropdown-menu li.current > a{ background-color:#2767A3; color:#fff;  }
+
+/* LEVEL 1 menu item styling ON HOVER */
+ul#dropdown-menu li.hover > a{ background-color:#333; color:#fff;}
+
+/* level 2 menu */
+ul#dropdown-menu ul{ background-color:#333; }
+
+/* LEVEL 2 menu element styling  */ 
+ul#dropdown-menu li .sub-menu li > a{ color:#fff;  }
+ 
+/* LEVEL 2 menu item styling ON HOVER */ 
+ul#dropdown-menu li .sub-menu li > a:hover{ background-color:#555; }
+
+/* LAST LEVEL 2 menu item styling */
+ul#dropdown-menu li .sub-menu li:last-child > a{ border:none; }
+ul#dropdown-menu li .sub-menu li:last-child > a:hover{  }
+
+/* LEVEL 3 menu styling */
+ul#dropdown-menu ul ul li > a{ border-bottom:1px solid #fff; }
+
+
+.btn-black{
+	border:1px solid #1f70ad;
+	background-color:#2778C8;
+	background-image:-webkit-linear-gradient(bottom, #2778C8 0%, #2B8EC7 100%);
+	background-image:   -moz-linear-gradient(bottom, #2778C8 0%, #2B8EC7 100%);
+	background-image:    -ms-linear-gradient(bottom, #2778C8 0%, #2B8EC7 100%);
+	background-image:     -o-linear-gradient(bottom, #2778C8 0%, #2B8EC7 100%);
+	background-image:        linear-gradient(bottom, #2778C8 0%, #2B8EC7 100%);
+	color:#fff;
+	text-shadow:1px -1px 0px #1c6396;
+	filter:dropshadow(color=#1c6396, offx=1, offy=1);
+}
+
+.btn-black:hover{ background:#287fc8; }
+	
+#subscribe input[type="button"]{
+	background-color:#2767A3;
+	color:#fff;
+}
+	
+
+.social li a:hover,
+.social-list li a:hover{ background-color:#4080BC; }
+	
+.firstcharacter { color:#2767A3 !important;  }
+.accordion li>a{ color:#2767A3;  }	
+
+/* SlideText 
+-----------------------------------------------------------------------------------------------*/
+
+.flex-control-paging li a {
+	background-color:#333 !important;
+}
+
+.flex-control-paging li a:hover,
+.flex-control-paging li a.flex-active {
+	background-color:#2767A3 !important;
+}
+
+.slidetext {
+	color: #aeb0b3 !important;
+}
+
+.slidetext h2, 
+.slidetext h3 {
+	background-color:#333 !important;
+	color: #ffffff !important;
+}
+
+.slidetext a, 
+.slidetext h2 a, 
+.slidetext h3 a {
+	color: #ffffff !important;
+}
+
+.slidetext p {
+	color:#fff !important;
+	background-color:#2767A3 !important;
+}
+
+/* Icons with text 
+-----------------------------------------------------------------------------------------------*/
+
+.with-icon i{ color:#fff; background-color:#333; }
+
+/* Icons with text 
+-----------------------------------------------------------------------------------------------*/
+
+.firstcharacter { color:#C00E08; }
+.reading-box{ border:1px solid #eee; background-color:#fff; }
+
+.help-box{ background-color:#fff; box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3); }	
+.help-box i{ background-color:#2767A3; color:#fff; }
+
+#header{border-top: 5px solid #2767A3;}
+
+.box{ background-color:#f5f5f5; }
+
+#footer{ background-color:#f5f5f5; border-top:1px solid #efefef; }
+
+.footer-box{ background-color:#fff; }
+
+
+/* About
+-----------------------------------------------------------------------------------------------------*/
+
+	/* Team member */
+
+	.team-member-social li a i{ color:#565656;  }
+	.team-member-social li:hover i{ background-color:#2767A3;  color:#fff; }
+	
+	.view-first .mask {background-color: rgba(39,103,163, 0.7);}
+
+	/* Statistics */	
+
+	.statistics li{ background-color:#4080BC; color:#fff; }
+	.statistics li span{ background-color:#2767A3; }
+			
+		
+	/* Partners */
+		
+	.partners{ border:1px solid #efefef; background-color:#f5f5f5; }
+
+/* Services
+-----------------------------------------------------------------------------------------------------*/
+#med-tools-top{border-top:10px solid #2767A3;}
+#med-tools-bottom{border-bottom:10px solid #2767A3;}
+.num{background-color:#2767A3;}
+
+	/* Services overview */
+
+	.services-overview{ border:1px solid #efefef; }
+	
+		.services-overview i{ color:#333; }
+		.services-overview:hover i {color:#2767A3;}
+		.span2 .services-overview:hover i {color:#2767A3;}
+	
+		.services-overview:hover{ background-color:#2767A3; border-color:#2767A3; }
+		
+		.services-overview h3 a{color:#666;}
+		.services-overview:hover h3 a{color:#fff; text-decoration:none;}
+		
+		.services-overview p{color:#939393;}
+		.services-overview:hover p{color:#fff;}
+
+	/* Related services */
+
+	.other-service{ background-color:#f1f0f0; }
+		.other-service h5{ color:#565656; }
+		
+/* Portfolio
+-----------------------------------------------------------------------------------------------------*/
+
+	/* Portfolio item list */
+
+	.portfolio-item-list li a{ background-color:#fff; border:1px solid #efefef; }
+	.portfolio-item-list li i{ color:#565656; }
+	.portfolio-item-list li a:hover{ color:#fff; background-color:#333; }
+	.portfolio-item-list li a:hover i { color:#fff; }
+	
+	/* Portfolio items */	
+
+	.portfolio-item-description{ background-color:#fff; color:#4b4b4b; }
+		.portfolio-item-description p{ color:#4c4c4c;  }
+		.portfolio-item.hover .portfolio-item-description p, 
+		.portfolio-item.hover .portfolio-item-description h5{ color:#fff;  }
+	
+	.portfolio-item-overlay{ background-color:#060; background-color:rgba(255,255,255,0.6); color:#4c4c4c; }
+	
+		.portfolio-item-overlay p{color:#4c4c4c; }
+
+	/* portfolio pagination */
+
+	.portfolio-paging li a{ color:#4b4b4b; background-color:#f5f5f5; }
+	.portfolio-paging li.current a{ background-color:#333; color:#fff; }
+	.portfolio-paging li a:hover{ background-color:#2767A3; color:#fff; }
+	
+/* Blog
+-----------------------------------------------------------------------------------------------------*/
+		
+	a.button-blue{ background-color:#2767A3; }
+	
+	.article{ background-color:#f5f5f5; }
+	
+
+	.blog-paging li a{ color:#4b4b4b; background-color:#f1efef; }
+	.blog-paging li.current a{ background-color:#2767A3; color:#fff; }
+	.blog-paging li a:hover{ background-color:#2767A3; color:#fff; }
+	
+	.left-navigation{ background-color:#f1efef; }
+	
+	.search-input{ 
+		background-color:#fff !important; 
+		color:#555555 !important; 
+	}
+	.search-button{
+		background-color:#2767A3 !important;
+		color:#fff;
+	}
+	
+	.tags-list li a{ color:#fff !important; background-color:#2767A3; }
+	
+	#blog-inner .box{ border-top:1px solid #efefef; background-color:#fff; border-bottom:none; }
+	
+/* Contact
+-------------------------------------------------------------------------------------------------*/
+
+	.contact{ background-color:#2767A3; }	
