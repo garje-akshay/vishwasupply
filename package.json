@@ -1,0 +1,23 @@
+{
+  "name": "vishwasupply",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ 
+  "scripts": {
+    "deploy": "gh-pages -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garje-akshay/vishwasupply.git"
+  },
+  "author": "Akshay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garje-akshay/vishwasupply/issues"
+  },
+  "homepage": "https://github.com/garje-akshay/vishwasupply#readme",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
