@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://vishwasupply.com/</loc>
+  <lastmod>2022-02-04T23:02:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://vishwasupply.com/mail_example.html</loc>
+  <lastmod>2017-10-30T07:45:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vishwasupply.com/index.html</loc>
+  <lastmod>2022-02-04T23:02:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vishwasupply.com/aboutus.html</loc>
+  <lastmod>2021-01-10T11:54:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vishwasupply.com/supply_to_europe.html</loc>
+  <lastmod>2021-01-10T11:54:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vishwasupply.com/supply_to_india.html</loc>
+  <lastmod>2021-01-10T11:54:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vishwasupply.com/contact.html</loc>
+  <lastmod>2023-01-24T23:37:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vishwasupply.com/enquiry_form.html</loc>
+  <lastmod>2023-01-24T23:38:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

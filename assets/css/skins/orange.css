@@ -1,0 +1,216 @@
+/* Dropdown Menu 
+-----------------------------------------------------------------------------------------------*/
+/* level 1 menu */
+
+ul#dropdown-menu li a{ color:#4b4b4b; }
+
+/* styling of LEVEL 1 menu item that is current */ 
+ul#dropdown-menu li.current > a{ background-color:#D78F00; color:#fff;  }
+
+/* LEVEL 1 menu item styling ON HOVER */
+ul#dropdown-menu li.hover > a{ background-color:#333; color:#fff;}
+
+/* level 2 menu */
+ul#dropdown-menu ul{ background-color:#333; }
+
+/* LEVEL 2 menu element styling  */ 
+ul#dropdown-menu li .sub-menu li > a{ color:#fff;  }
+ 
+/* LEVEL 2 menu item styling ON HOVER */ 
+ul#dropdown-menu li .sub-menu li > a:hover{ background-color:#555; }
+
+/* LAST LEVEL 2 menu item styling */
+ul#dropdown-menu li .sub-menu li:last-child > a{ border:none; }
+ul#dropdown-menu li .sub-menu li:last-child > a:hover{  }
+
+/* LEVEL 3 menu styling */
+ul#dropdown-menu ul ul li > a{ border-bottom:1px solid #fff; }
+
+
+.btn-black{
+	border:1px solid #B47700;
+	background-color:#B47700;
+	background-image:-webkit-linear-gradient(bottom, #B47700 0%, #D78F00 100%);
+	background-image:   -moz-linear-gradient(bottom, #B47700 0%, #D78F00 100%);
+	background-image:    -ms-linear-gradient(bottom, #B47700 0%, #D78F00 100%);
+	background-image:     -o-linear-gradient(bottom, #B47700 0%, #D78F00 100%);
+	background-image:        linear-gradient(bottom, #B47700 0%, #D78F00 100%);
+	color:#fff !important ;
+	filter:dropshadow(color=#ffffff, offx=1, offy=1);
+}
+
+.btn-black:hover{ background: #D78F00; }
+	
+#subscribe input[type="button"]{
+	background-color:#D78F00;
+	color:#fff;
+}
+
+.social li a:hover,
+.social-list li a:hover{ background-color:#B47700; }	
+	
+
+.firstcharacter { color:#D78F00 !important;  }
+.accordion li>a{ color:#D78F00;  }	
+	
+/* SlideText 
+-----------------------------------------------------------------------------------------------*/
+
+.flex-control-paging li a {
+	background-color:#333 !important;
+}
+
+.flex-control-paging li a:hover,
+.flex-control-paging li a.flex-active {
+	background-color:#D78F00 !important;
+}
+
+.slidetext {
+	color: #aeb0b3 !important;
+}
+
+.slidetext h2, 
+.slidetext h3 {
+	background-color:#333 !important;
+	color: #ffffff !important;
+}
+
+.slidetext a, 
+.slidetext h2 a, 
+.slidetext h3 a {
+	color: #ffffff !important;
+}
+
+.slidetext p {
+	color:#fff !important;
+	background-color:#D78F00 !important;
+}
+
+/* Icons with text 
+-----------------------------------------------------------------------------------------------*/
+
+.with-icon i{ color:#fff; background-color:#333; }
+
+/* Icons with text 
+-----------------------------------------------------------------------------------------------*/
+
+.firstcharacter { color:#C00E08; }
+.reading-box{ border:1px solid #eee; background-color:#fff; }
+
+.help-box{ background-color:#fff; box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3); }	
+.help-box i{ background-color:#D78F00; color:#fff; }
+
+#header{border-top: 5px solid #D78F00;}
+
+.box{ background-color:#f5f5f5; }
+
+#footer{ background-color:#f5f5f5; border-top:1px solid #efefef; }
+
+.footer-box{ background-color:#fff; }
+
+
+/* About
+-----------------------------------------------------------------------------------------------------*/
+
+	/* Team member */
+
+	.team-member-social li a i{ color:#565656;  }
+	.team-member-social li:hover i{ background-color:#D78F00;  color:#fff; }
+	
+	.view-first .mask {background-color: rgba(215,143,0, 0.7);}
+
+	/* Statistics */	
+
+	.statistics li{ background-color:#B47700; color:#fff; }
+	.statistics li span{ background-color:#D78F00; }
+			
+		
+	/* Partners */
+		
+	.partners{ border:1px solid #efefef; background-color:#f5f5f5; }
+
+/* Services
+-----------------------------------------------------------------------------------------------------*/
+#med-tools-top{border-top:10px solid #D78F00;}
+#med-tools-bottom{border-bottom:10px solid #D78F00;}
+.num{background-color:#D78F00;}
+
+	/* Services overview */
+
+	.services-overview{ border:1px solid #efefef; }
+	
+		.services-overview i{ color:#333; }
+		.services-overview:hover i {color:#D78F00;}
+		.span2 .services-overview:hover i {color:#D78F00;}
+	
+		.services-overview:hover{ background-color:#D78F00; border-color:#D78F00; }
+		
+		.services-overview h3 a{color:#666;}
+		.services-overview:hover h3 a{color:#fff; text-decoration:none;}
+		
+		.services-overview p{color:#939393;}
+		.services-overview:hover p{color:#fff;}
+
+	/* Related services */
+
+	.other-service{ background-color:#f1f0f0; }
+		.other-service h5{ color:#565656; }
+		
+/* Portfolio
+-----------------------------------------------------------------------------------------------------*/
+
+	/* Portfolio item list */
+
+	.portfolio-item-list li a{ background-color:#fff; border:1px solid #efefef; }
+	.portfolio-item-list li i{ color:#565656; }
+	.portfolio-item-list li a:hover{ color:#fff; background-color:#333; }
+	.portfolio-item-list li a:hover i { color:#fff; }
+	
+	/* Portfolio items */	
+
+	.portfolio-item-description{ background-color:#fff; color:#4b4b4b; }
+		.portfolio-item-description p{ color:#4c4c4c;  }
+		.portfolio-item.hover .portfolio-item-description p, 
+		.portfolio-item.hover .portfolio-item-description h5{ color:#fff;  }
+	
+	.portfolio-item-overlay{ background-color:#060; background-color:rgba(255,255,255,0.6); color:#4c4c4c; }
+	
+		.portfolio-item-overlay p{color:#4c4c4c; }
+
+	/* portfolio pagination */
+
+	.portfolio-paging li a{ color:#4b4b4b; background-color:#f5f5f5; }
+	.portfolio-paging li.current a{ background-color:#333; color:#fff; }
+	.portfolio-paging li a:hover{ background-color:#D78F00; color:#fff; }
+	
+/* Blog
+-----------------------------------------------------------------------------------------------------*/
+		
+	a.button-blue{ background-color:#D78F00; }
+	
+	.article{ background-color:#f5f5f5; }
+	
+
+	.blog-paging li a{ color:#4b4b4b; background-color:#f1efef; }
+	.blog-paging li.current a{ background-color:#D78F00; color:#fff; }
+	.blog-paging li a:hover{ background-color:#D78F00; color:#fff; }
+	
+	.left-navigation{ background-color:#f1efef; }
+	
+	.search-input{ 
+		background-color:#fff !important; 
+		color:#555555 !important; 
+	}
+	.search-button{
+		background-color:#D78F00 !important;
+		color:#fff;
+	}
+	
+	.tags-list li a{ color:#fff !important; background-color:#D78F00; }
+	
+	#blog-inner .box{ border-top:1px solid #efefef; background-color:#fff; border-bottom:none; }
+	
+/* Contact
+-------------------------------------------------------------------------------------------------*/
+
+	.contact{ background-color:#D78F00; }	
